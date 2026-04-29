@@ -389,8 +389,8 @@ ul {
 }
 
 .profile-image {
-    width: 220px;
-    height: 280px;
+    width: 180px;
+    height: 220px;
     border-radius: 8px;
     object-fit: cover;
     box-shadow: var(--shadow-md);
@@ -401,7 +401,7 @@ ul {
 .affiliations-logos {
     display: grid;
     grid-template-columns: 1fr;
-    gap: var(--spacing-md);
+    gap: var(--spacing-lg);
     width: 100%;
 }
 
@@ -409,21 +409,21 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: var(--spacing-md);
-    background: var(--bg-light);
-    border-radius: 6px;
-    border: 1px solid var(--border-color);
+    padding: 0;
+    background: transparent;
+    border-radius: 0;
+    border: none;
     transition: var(--transition);
 }
 
 .affiliations-logos .logo-item:hover {
-    border-color: var(--accent-color);
-    box-shadow: var(--shadow-sm);
-    transform: translateY(-2px);
+    border-color: transparent;
+    box-shadow: none;
+    transform: scale(1.08);
 }
 
 .affiliations-logos .logo-item img {
-    height: 50px;
+    height: 70px;
     width: auto;
     max-width: 100%;
     filter: none;
